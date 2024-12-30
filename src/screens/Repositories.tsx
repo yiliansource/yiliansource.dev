@@ -60,16 +60,11 @@ function Repositories() {
             <motion.div
                 className="flex flex-col items-center my-8 text-center"
                 initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
+                animate={{ opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.1 } }}
             >
-                <h2 className="mb-4 text-5xl font-bold">Other projects of mine.</h2>
-                <p className="text-stone-600 text-lg max-w-lg">
-                    Phasellus euismod mi urna. Proin congue neque non metus ultrices, eu varius enim finibus.
-                    Pellentesque eleifend quam sit amet massa laoreet congue. In venenatis molestie consequat. Nunc
-                    dapibus tempus viverra.
-                </p>
+                <h2 className="mb-4 text-4xl font-bold">Other projects of mine.</h2>
             </motion.div>
-            <motion.div className="relative mx-auto my-8 max-w-6xl grid md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <motion.div className="relative mx-auto mb-8 max-w-6xl grid md:grid-cols-2 lg:grid-cols-3 gap-2">
                 {repositories.map((r) => (
                     <motion.a
                         key={r.title}
@@ -79,10 +74,10 @@ function Repositories() {
                         initial={{ opacity: 0 }}
                         animate={{
                             opacity: 1,
-                            transition: {
-                                delay: 0.2 + Math.random() * 1,
-                                duration: 0.4,
-                            },
+                            y: 0,
+                        }}
+                        whileHover={{
+                            y: -4,
                         }}
                     >
                         <h3 className="mb-1 font-bold text-base">{r.title}</h3>

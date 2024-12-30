@@ -11,7 +11,6 @@
     },
     "dependencies": {
         "@octokit/rest": "^20.0.2",
-        "blobshape": "^1.0.0",
         "clsx": "^2.1.0",
         "geist": "^1.2.2",
         "motion": "^11.15.0",
@@ -21,7 +20,6 @@
         "timeago.js": "^4.0.2"
     },
     "devDependencies": {
-        "@types/blobshape": "^1.0.3",
         "@types/react": "^18.2.66",
         "@types/react-dom": "^18.2.22",
         "@typescript-eslint/eslint-plugin": "^7.2.0",

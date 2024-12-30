@@ -867,13 +867,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/blobshape@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@types/blobshape@npm:1.0.3"
-  checksum: 10c0/2b7b5236741ddce104c88bf7d17ea96c6d29ec62f8d0b390b6ca1f8922a60850096378660cec54923c4e080873f2aff1049b6a64a35cab8f4b39a6ba7a640c7d
-  languageName: node
-  linkType: hard
-
 "@types/estree@npm:1.0.6":
   version: 1.0.6
   resolution: "@types/estree@npm:1.0.6"
@@ -1195,13 +1188,6 @@ __metadata:
   version: 2.3.0
   resolution: "binary-extensions@npm:2.3.0"
   checksum: 10c0/75a59cafc10fb12a11d510e77110c6c7ae3f4ca22463d52487709ca7f18f69d886aa387557cc9864fbdb10153d0bdb4caacabf11541f55e89ed6e18d12ece2b5
-  languageName: node
-  linkType: hard
-
-"blobshape@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "blobshape@npm:1.0.0"
-  checksum: 10c0/bf91fca4955eae5ce35911820eae18e05ba399ce2f5c51d15ca825f6d06163a4a4bf0cd2005a09dc02d40f5b712270eeac6b0ffb1a79599a6bafcdf63c7da92b
   languageName: node
   linkType: hard
 
@@ -3653,14 +3639,12 @@ __metadata:
   resolution: "yiliansource-dev@workspace:."
   dependencies:
     "@octokit/rest": "npm:^20.0.2"
-    "@types/blobshape": "npm:^1.0.3"
     "@types/react": "npm:^18.2.66"
     "@types/react-dom": "npm:^18.2.22"
     "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
     "@typescript-eslint/parser": "npm:^7.2.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
     autoprefixer: "npm:^10.4.18"
-    blobshape: "npm:^1.0.0"
     clsx: "npm:^2.1.0"
     eslint: "npm:^8.57.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
